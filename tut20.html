@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-color: rgb(183, 150, 214);
+        }
+
+        .container {
+            background-color: rgb(231, 230, 241);
+            border: 3px solid rgb(77, 7, 143);
+            /* we can set padding and margin for top,bottom,left and right like this
+    padding top:79px;
+    padding bottom : 79px;
+    padding left:34px; */
+
+            /* margin-top: 3px;
+            margin-bottom: 5px;
+            margin-left: 34px;
+            margin-right: 5px; */
+            
+            /*padding: 23px 56px 6px 78px; */
+            /* padding top right bottom left*/
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 22px;
+            width: 533px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis similique odio unde
+            explicabo, laboriosam dolores. Dicta corrupti totam molestiae at consectetur exercitationem ullam facere
+            dolor dolorum cupiditate, porro aliquid.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis similique odio unde
+            explicabo, laboriosam dolores. Dicta corrupti totam molestiae at consectetur exercitationem ullam facere
+            dolor dolorum cupiditate, porro aliquid.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis similique odio unde
+            explicabo, laboriosam dolores. Dicta corrupti totam molestiae at consectetur exercitationem ullam facere
+            dolor dolorum cupiditate, porro aliquid.</p>
+    </div>
+
+</body>
+
+</html>
